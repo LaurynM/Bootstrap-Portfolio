@@ -1,7 +1,6 @@
 /*Header*/
 header {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	background: #fff;
 }
 
 li{
@@ -19,38 +18,80 @@ body {
 
 .navbar-brand {
 	background: goldenrod;
-	font-size:200%;
+	font-size:250%;
 }
 
+
 /* Main Body */
+.wrapper{
+	margin: 30px;
+}
 #mainContent {
     background: white;
+    border: 2px solid goldenrod;
+    padding: 10px;
+    overflow: auto;
+    margin-bottom: 100px;
 }
+/*About Page*/
 #headshot{
-    max-width: 40%;
+    max-width: 100%;
     height: auto;
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
 }
+/*Portfolio Page*/
+.portfolio {
+	/*height: 220px;*/
+	margin: 10px;
+}
+.portfolio img {
+	position: relative;
+	width: 100%;
+	height: 220px;
+/*	min-height: 220px;
+	max-height: 275px;*/
+	min-width: 220px;
+	max-width: 275px;
+}
+.portfolio a {
+	position:absolute;
+	bottom: 40px;
+	width: 100%;
+	max-width: 275px;
+/*	left: 0;
+	right: 0;*/
+	background-color: goldenrod;
+/* 	height: 60px; */
+	/*width: 275px;*/
+	text-align:center;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 
 /* Social Media Menu */
-
 #social {
     background: white;
-/*     margin-left:20px; */
     text-align: center;
-    float: left;
+    padding: 10px;
+    border: 2px solid goldenrod;
 }
 #social img {
     max-width: 60px;
     margin-bottom: 20px;
 }
 
-/* Footer */
 
+/* Footer */
 #footer {
 /* 	clear: both; */
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
 	color: #fff;
 	background-color: #666;
 	border-top-style: solid;
@@ -60,3 +101,4 @@ body {
 	padding: 20px;
 	margin-top: 40px;
 }
+

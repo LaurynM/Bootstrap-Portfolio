@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Lauryn McFarland</title>
 
     <!-- Bootstrap -->
 <!--     <link href="css/bootstrap.min.css" rel="stylesheet"> -->
@@ -30,7 +30,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" style="border-radius:0px;">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -52,40 +52,46 @@
         </div><!-- /.container-fluid -->
     </nav>
 
-    <div class="container" >
+    <div class="container-fluid" >
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-8" id="mainContent">
+        <div class="col-xs-12 col-sm-6 col-md-8">
 <!--         Begin Main Content -->
-        <h1>About Me</h1>
-        <hr>
-        <img class="img-responsive" id="headshot" src="images/headshot.jpg" alt="Lauryn McFarland">
-        <p>I am a Chemical Engingeer and Full Stack Web Developer living and working in Austin, TX.</p>
-		<br>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis gravida justo vitae varius efficitur. Integer vel porta justo. Nam varius aliquet quam et vehicula. Praesent imperdiet enim sed felis dapibus commodo. Fusce faucibus nunc odio. In hac habitasse platea dictumst. Donec ex dolor, imperdiet vel ligula vel, dictum tincidunt diam. Cras nec magna sit amet justo cursus sagittis.</p>
-		<br>
-		<p>Aenean mattis est ac dignissim volutpat. Curabitur bibendum nunc sem, in laoreet ligula fermentum vel. Phasellus id dui at est facilisis aliquam molestie non lorem. Morbi arcu diam, fermentum vel nisi at, ornare tincidunt nisl. Donec elementum ultrices erat a pellentesque. Nam non ex eget dolor viverra ultricies. Nullam facilisis porta augue, a finibus quam tincidunt nec. Morbi in magna at nibh sodales vestibulum. Aenean vel bibendum mauris. Aenean pulvinar ante magna. Maecenas quis feugiat sem. Vestibulum euismod nulla ligula, in ullamcorper tellus sodales vitae. Duis elementum est eros, eget consectetur arcu tempus in. Morbi ac ante quis nisl pretium lobortis pharetra porttitor massa. Quisque ac mauris est. Sed elit leo, finibus ac sodales sit amet, pharetra consectetur justo.</p>
-		<br>
-		<p>Donec et lacus convallis massa lacinia rutrum. Fusce tempus vulputate ligula ut feugiat. Aliquam aliquam consequat pretium. Nulla tincidunt dignissim vulputate. Pellentesque at aliquam velit. Mauris ut placerat erat. Proin varius venenatis purus non tempus. Proin eget nibh gravida, eleifend velit a, iaculis nunc. Nulla hendrerit purus et feugiat luctus. Sed vel turpis malesuada, porta justo a, ullamcorper lorem.</p>
-        </div>
+          <div class="wrapper" id="mainContent">
+            <h1>About Me</h1>
+            <hr>
+            <div class="col-xs-12 col-sm-6 col-md-5">
+             <img class="img-responsive" id="headshot" src="images/headshot.jpg" alt="Lauryn McFarland"> 
+            </div>
+            <p>I am a Chemical Engingeer and Full Stack Web Developer living and working in Austin, TX.</p>
+        		<br>
+        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis gravida justo vitae varius efficitur. Integer vel porta justo. Nam varius aliquet quam et vehicula. Praesent imperdiet enim sed felis dapibus commodo. Fusce faucibus nunc odio. In hac habitasse platea dictumst. Donec ex dolor, imperdiet vel ligula vel, dictum tincidunt diam. Cras nec magna sit amet justo cursus sagittis.</p>
+        		<br>
+        		<p>Aenean mattis est ac dignissim volutpat. Curabitur bibendum nunc sem, in laoreet ligula fermentum vel. Phasellus id dui at est facilisis aliquam molestie non lorem. Morbi arcu diam, fermentum vel nisi at, ornare tincidunt nisl. Donec elementum ultrices erat a pellentesque. Nam non ex eget dolor viverra ultricies. Nullam facilisis porta augue, a finibus quam tincidunt nec. Morbi in magna at nibh sodales vestibulum. Aenean vel bibendum mauris. Aenean pulvinar ante magna. Maecenas quis feugiat sem. Vestibulum euismod nulla ligula, in ullamcorper tellus sodales vitae. Duis elementum est eros, eget consectetur arcu tempus in. Morbi ac ante quis nisl pretium lobortis pharetra porttitor massa. Quisque ac mauris est. Sed elit leo, finibus ac sodales sit amet, pharetra consectetur justo.</p>
+        		<br>
+        		<p>Donec et lacus convallis massa lacinia rutrum. Fusce tempus vulputate ligula ut feugiat. Aliquam aliquam consequat pretium. Nulla tincidunt dignissim vulputate. Pellentesque at aliquam velit. Mauris ut placerat erat. Proin varius venenatis purus non tempus. Proin eget nibh gravida, eleifend velit a, iaculis nunc. Nulla hendrerit purus et feugiat luctus. Sed vel turpis malesuada, porta justo a, ullamcorper lorem.</p>
+          </div> <!-- Close .wrapper -->
+        </div> <!-- Close responsive column -->
 <!-- End Main Content -->
-        <div class="col-xs-12 col-sm-6 col-md-4" id="social">
-          <h3>Connect With Me</h3>
-		  <hr>
-		  <a href="https://github.com/LaurynM">
-			<img src="images/github.png">
-		  </a>
-		  <a href="https://www.linkedin.com/in/lauryn-mcfarland-676a2b3a/">
-			<img src="images/linkedin.png">
-		  </a>
-		  <a href="https://stackoverflow.com/users/8662126/lmc">
-			<img src="images/stackoverflow.png">
-		  </a>
-        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="wrapper" id="social">
+            <h3>Connect With Me</h3>
+      		  <hr>
+      		  <a href="https://github.com/LaurynM">
+      			<img src="images/github.png">
+      		  </a>
+      		  <a href="https://www.linkedin.com/in/lauryn-mcfarland-676a2b3a/">
+      			<img src="images/linkedin.png">
+      		  </a>
+      		  <a href="https://stackoverflow.com/users/8662126/lmc">
+      			<img src="images/stackoverflow.png">
+      		  </a>
+          </div> <!-- Close .wrapper -->
+        </div> <!-- Close responsive column -->
        </div> <!-- end of row div -->
-    </div><!-- end of container div -->
+    </div> <!-- end of container div -->
 
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12" id="footer">
           <p id="copyright">&copy; Copyright 2017 Lauryn McFarland</p>
